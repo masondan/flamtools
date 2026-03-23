@@ -100,7 +100,7 @@
 
 	.section-title {
 		font-family: 'Saira', sans-serif;
-		font-size: 0.9rem;
+		font-size: 1rem;
 		font-weight: 500;
 		color: #555;
 		margin-bottom: 0.125rem;
@@ -175,6 +175,7 @@
 		padding: 0.75rem 1rem;
 		background-color: #f0e6f7;
 		color: #5422b0;
+		border: 1.5px solid #5422b0;
 		border-radius: 10px;
 		font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
 		font-size: 1.1rem;
