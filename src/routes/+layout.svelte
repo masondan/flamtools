@@ -25,4 +25,11 @@
 		text-decoration: none;
 		color: inherit;
 	}
+
+	@media (min-width: 481px) {
+		:global(body) {
+			display: flex;
+			justify-content: center;
+		}
+	}
 </style>

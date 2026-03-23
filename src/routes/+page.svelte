@@ -68,8 +68,16 @@
 		display: flex;
 		flex-direction: column;
 		max-width: 480px;
+		width: 100%;
 		margin: 0 auto;
 		padding: 0 1rem;
+		background-color: #f2f2f2;
+	}
+
+	@media (min-width: 481px) {
+		.page {
+			box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+		}
 	}
 
 	/* Header */

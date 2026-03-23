@@ -4,7 +4,7 @@
 	"description": "Journalism training tools for creators",
 	"start_url": "/",
 	"display": "standalone",
-	"background_color": "#f2f2f2",
+	"background_color": "#5422B0",
 	"theme_color": "#5422B0",
 	"icons": [
 		{
