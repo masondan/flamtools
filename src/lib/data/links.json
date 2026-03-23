@@ -1,0 +1,80 @@
+{
+	"apps": [
+		{
+			"id": "promptflam",
+			"name": "PromptFlam",
+			"url": "https://promptflam.flamtools.com",
+			"icon": "promptflam"
+		},
+		{
+			"id": "picflam",
+			"name": "PicFlam",
+			"url": "https://picflam.flamtools.com",
+			"icon": "picflam"
+		},
+		{
+			"id": "audioflam",
+			"name": "AudioFlam",
+			"url": "https://audioflam.flamtools.com",
+			"icon": "audioflam"
+		},
+		{
+			"id": "chartflam",
+			"name": "ChartFlam",
+			"url": "https://chartflam.flamtools.com",
+			"icon": "chartflam"
+		},
+		{
+			"id": "mapflam",
+			"name": "MapFlam",
+			"url": "https://mapflam.flamtools.com",
+			"icon": "mapflam"
+		}
+	],
+	"toolkit": [
+		{
+			"id": "pixabay",
+			"name": "Pixabay",
+			"url": "https://pixabay.com/"
+		},
+		{
+			"id": "notebooklm",
+			"name": "NotebookLM",
+			"url": "https://notebooklm.google.com/"
+		},
+		{
+			"id": "converter",
+			"name": "Converter",
+			"url": "https://www.freeconvert.com/"
+		},
+		{
+			"id": "pdftools",
+			"name": "PDF tools",
+			"url": "https://www.ilovepdf.com/"
+		},
+		{
+			"id": "subtitles",
+			"name": "Subtitles",
+			"url": "https://withsubtitles.com/"
+		},
+		{
+			"id": "multitool",
+			"name": "Multi-tool",
+			"url": "https://123apps.com/"
+		}
+	],
+	"training": [
+		{
+			"id": "storyflam",
+			"name": "StoryFlam",
+			"url": "https://storyflam.flamtools.com",
+			"icon": "storyflam"
+		},
+		{
+			"id": "flamit",
+			"name": "FlamIt",
+			"url": "https://flamit.flamtools.com",
+			"icon": "flamit"
+		}
+	]
+}
