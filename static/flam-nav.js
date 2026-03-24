@@ -32,7 +32,7 @@ class FlamNav extends HTMLElement {
 	}
 
 	_getAppContainer() {
-		let el = this.closest('.app-container, .app, .page, [class*="max-w"]');
+		let el = this.closest('.app-container, .app, .page, .header, [class*="max-w"]');
 		if (!el) {
 			el = this.closest('[style*="max-width"]');
 		}

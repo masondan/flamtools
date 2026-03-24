@@ -1,8 +1,9 @@
 {
 	"name": "FlamTools",
 	"short_name": "FlamTools",
-	"description": "Journalism training tools for creators",
+	"description": "Mobile-first tools for creators",
 	"start_url": "/",
+	"scope": "/",
 	"display": "standalone",
 	"background_color": "#5422B0",
 	"theme_color": "#5422B0",
