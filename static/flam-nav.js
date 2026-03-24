@@ -67,6 +67,16 @@ class FlamNav extends HTMLElement {
 		const overlay = this.shadowRoot.querySelector('.overlay');
 		drawer.classList.remove('open');
 		overlay.classList.remove('open');
+		// Delay clearing inline styles until after fade transition completes
+		setTimeout(() => {
+			drawer.style.left = '';
+			drawer.style.top = '';
+			drawer.style.bottom = '';
+			overlay.style.left = '';
+			overlay.style.width = '';
+			overlay.style.top = '';
+			overlay.style.bottom = '';
+		}, 250);
 		document.removeEventListener('keydown', this._onKeyDown);
 	}
 
@@ -103,7 +113,7 @@ class FlamNav extends HTMLElement {
 				}
 
 				.menu-btn:hover {
-					color: #5422b0;
+					color: var(--flam-nav-hover, #5422b0);
 				}
 
 				.menu-btn svg {
@@ -134,15 +144,17 @@ class FlamNav extends HTMLElement {
 					width: 180px;
 					background: #fff;
 					z-index: 9999;
-					transform: translateX(-100%);
-					transition: transform 250ms ease;
+					opacity: 0;
+					visibility: hidden;
+					transition: opacity 250ms ease, visibility 250ms ease;
 					display: flex;
 					flex-direction: column;
 					box-shadow: 2px 0 12px rgba(0, 0, 0, 0.15);
 				}
 
 				.drawer.open {
-					transform: translateX(0);
+					opacity: 1;
+					visibility: visible;
 				}
 
 				.drawer-header {
@@ -156,7 +168,7 @@ class FlamNav extends HTMLElement {
 					gap: 8px;
 					text-decoration: none;
 					color: #5422b0;
-					font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+					font-family: 'Saira', -apple-system, BlinkMacSystemFont, sans-serif;
 					font-size: 15px;
 					font-weight: 600;
 				}
@@ -178,7 +190,7 @@ class FlamNav extends HTMLElement {
 					display: block;
 					padding: 10px 16px;
 					text-decoration: none;
-					font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+					font-family: 'Saira', -apple-system, BlinkMacSystemFont, sans-serif;
 					font-size: 15px;
 					font-weight: 450;
 					color: #333;
