@@ -1,22 +1,22 @@
 {
-	"name": "FlamTools",
-	"short_name": "FlamTools",
-	"description": "Mobile-first tools for creators",
-	"start_url": "/",
-	"display": "standalone",
-	"background_color": "#5422B0",all 
-	"theme_color": "#5422B0",
-	"icons": [
-		{
-			"src": "/logos/logo-flamtools-gen.png",
-			"sizes": "512x512",
-			"type": "image/png"
-		},
-		{
-			"src": "/logos/flamtools-maskable.png",
-			"sizes": "512x512",
-			"type": "image/png",
-			"purpose": "maskable"
-		}
-	]
+  "name": "FlamTools",
+  "short_name": "FlamTools",
+  "description": "Mobile-first tools for creators",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#5422B0",
+  "theme_color": "#5422B0",
+  "icons": [
+    {
+      "src": "/logos/logo-flamtools-gen.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/logos/flamtools-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
 }
