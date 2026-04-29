@@ -29,6 +29,12 @@
 			"name": "MapFlam",
 			"url": "https://mapflam.flamtools.com",
 			"icon": "mapflam"
+		},
+		{
+			"id": "subflam",
+			"name": "SubFlam",
+			"url": "https://subflam.flamtools.com",
+			"icon": "subflam"
 		}
 	],
 	"toolkit": [
