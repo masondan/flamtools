@@ -31,10 +31,10 @@
 			"icon": "mapflam"
 		},
 		{
-			"id": "subflam",
-			"name": "SubFlam",
-			"url": "https://subflam.flamtools.com",
-			"icon": "subflam"
+			"id": "videoflam",
+			"name": "VideoFlam",
+			"url": "https://videoflam.flamtools.com",
+			"icon": "videoflam"
 		}
 	],
 	"toolkit": [
