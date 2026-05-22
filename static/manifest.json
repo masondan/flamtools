@@ -3,7 +3,7 @@
   "short_name": "FlamTools",
   "description": "Mobile-first tools for creators",
   "start_url": "/",
-  "display": "browser",
+  "display": "standalone",
   "background_color": "#5422B0",
   "theme_color": "#5422B0",
   "icons": [
