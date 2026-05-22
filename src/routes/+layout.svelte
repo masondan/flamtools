@@ -1,7 +1,30 @@
 <script lang="ts">
 	import type { Snippet } from 'svelte';
+	import { onMount } from 'svelte';
 
 	let { children }: { children: Snippet } = $props();
+
+	let deferredPrompt: any = $state(null);
+
+	onMount(() => {
+		// Register service worker
+		if ('serviceWorker' in navigator) {
+			navigator.serviceWorker.register('/service-worker.js').catch(() => {
+				// Service worker registration failed, app continues to work
+			});
+		}
+
+		// Capture beforeinstallprompt event for later trigger
+		window.addEventListener('beforeinstallprompt', (e: any) => {
+			e.preventDefault();
+			deferredPrompt = e;
+		});
+
+		// Clean up on uninstall
+		window.addEventListener('appinstalled', () => {
+			deferredPrompt = null;
+		});
+	});
 </script>
 
 {@render children()}
