@@ -1,0 +1,187 @@
+{
+	"categories": [
+		{
+			"id": "projects",
+			"name": "Projects",
+			"tools": [
+				{
+					"id": "notebooklm",
+					"name": "NotebookLM",
+					"url": "https://notebooklm.google.com/"
+				}
+			]
+		},
+		{
+			"id": "search",
+			"name": "Search",
+			"tools": [
+				{
+					"id": "pixabay",
+					"name": "Pixabay",
+					"url": "https://pixabay.com/"
+				},
+				{
+					"id": "pexels",
+					"name": "Pexels",
+					"url": "https://www.pexels.com/"
+				},
+				{
+					"id": "unsplash",
+					"name": "Unsplash",
+					"url": "https://unsplash.com/"
+				}
+			]
+		},
+		{
+			"id": "image",
+			"name": "Image",
+			"tools": [
+				{
+					"id": "imagegen",
+					"name": "Image Gen",
+					"url": "https://labs.google/fx/tools/flow"
+				},
+				{
+					"id": "bgremove",
+					"name": "BG Remove",
+					"url": "https://img-cut.aishoot.co/cut"
+				},
+				{
+					"id": "upscale",
+					"name": "Upscale",
+					"url": "https://cloudinary.com/tools/image-upscale"
+				},
+				{
+					"id": "colorize",
+					"name": "Colorize",
+					"url": "https://online.visual-paradigm.com/photo-effects-studio/old-photo-colorizer/"
+				}
+			]
+		},
+		{
+			"id": "audio",
+			"name": "Audio",
+			"tools": [
+				{
+					"id": "textspeech",
+					"name": "Text > Speech",
+					"url": "https://speechsynthesis.online/"
+				},
+				{
+					"id": "musicgen",
+					"name": "Music Gen",
+					"url": "https://www.minimax.io/audio/music"
+				},
+				{
+					"id": "transcribe",
+					"name": "Transcribe",
+					"url": "https://whisperweb.dev/audio-to-text"
+				},
+				{
+					"id": "trim",
+					"name": "Trim",
+					"url": "https://mp3cut.net/"
+				}
+			]
+		},
+		{
+			"id": "video",
+			"name": "Video",
+			"tools": [
+				{
+					"id": "subtitles",
+					"name": "Subtitles",
+					"url": "https://withsubtitles.com/"
+				},
+				{
+					"id": "subtrans",
+					"name": "Sub Trans",
+					"url": "https://translatesubtitles.co/"
+				},
+				{
+					"id": "compress",
+					"name": "Compress",
+					"url": "https://tools.invideo.io/tools/compress/video-compressor/editor"
+				},
+				{
+					"id": "convert",
+					"name": "Convert",
+					"url": "https://www.freeconvert.com/video-converter"
+				}
+			]
+		},
+		{
+			"id": "productivity",
+			"name": "Productivity",
+			"tools": [
+				{
+					"id": "multitools",
+					"name": "Multi-Tools",
+					"url": "https://123apps.com/"
+				},
+				{
+					"id": "pdftools",
+					"name": "PDF Tools",
+					"url": "https://www.ilovepdf.com/"
+				},
+				{
+					"id": "fileconvert",
+					"name": "File Convert",
+					"url": "https://www.freeconvert.com/"
+				},
+				{
+					"id": "textcheck",
+					"name": "Text Check",
+					"url": "https://phrasly.ai/ai-detector"
+				},
+				{
+					"id": "imagecheck",
+					"name": "Image Check",
+					"url": "https://sightengine.com/detect-ai-generated-images"
+				}
+			]
+		},
+		{
+			"id": "seo",
+			"name": "SEO",
+			"tools": [
+				{
+					"id": "seokit",
+					"name": "SEO Kit",
+					"url": "https://sites.google.com/view/nuj-seo-0626/home"
+				},
+				{
+					"id": "eeatcheck",
+					"name": "EEAT Check",
+					"url": "https://inetventures.com/eeat-checker"
+				}
+			]
+		},
+		{
+			"id": "extensions",
+			"name": "Chrome Extensions",
+			"tools": [
+				{
+					"id": "aisidebar1",
+					"name": "AI Sidebar 1",
+					"url": "https://chromewebstore.google.com/detail/anything-copilot-sidebar/lilckelmopbcffmglfmfhelaajhjpcff"
+				},
+				{
+					"id": "aisidebar2",
+					"name": "AI Sidebar 2",
+					"url": "https://chromewebstore.google.com/detail/omniside-chat-with-ai-mod/feejmmfeiamlfkhodljnnplcgjjaknnl"
+				},
+				{
+					"id": "notepad",
+					"name": "Notepad",
+					"url": "https://chromewebstore.google.com/detail/notepad/dlgjakmnebpfpfihadcipgmgaogldepi"
+				},
+				{
+					"id": "voicetotext",
+					"name": "Voice > Text",
+					"url": "https://chromewebstore.google.com/detail/voice-to-text/elajeappnnlkfmffkincmhkmomnjgjpj"
+				}
+			]
+		}
+	]
+}

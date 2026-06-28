@@ -37,28 +37,6 @@
 			"icon": "videoflam"
 		}
 	],
-	"toolkit": [
-		{
-			"id": "pixabay",
-			"name": "Pixabay",
-			"url": "https://pixabay.com/"
-		},
-		{
-			"id": "notebooklm",
-			"name": "NotebookLM",
-			"url": "https://notebooklm.google.com/"
-		},
-		{
-			"id": "converter",
-			"name": "Converter",
-			"url": "https://www.freeconvert.com/"
-		},
-		{
-			"id": "multitool",
-			"name": "Multi-tool",
-			"url": "https://123apps.com/"
-		}
-	],
 	"training": [
 		{
 			"id": "storyflam",
