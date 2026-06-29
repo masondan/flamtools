@@ -277,7 +277,7 @@
 	}
 
 	.btn-icon-purple {
-		filter: brightness(0) saturate(100%) invert(15%) sepia(80%) saturate(5000%) hue-rotate(262deg) brightness(80%) contrast(110%);
+		/* colour baked into SVG fill="#5422b0" — no filter needed */
 	}
 
 	.btn-label {
