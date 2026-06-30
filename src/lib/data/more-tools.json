@@ -95,7 +95,7 @@
 				},
 				{
 					"id": "subtrans",
-					"name": "Sub Trans",
+					"name": "Sub Translate",
 					"url": "https://translatesubtitles.co/"
 				},
 				{
@@ -175,11 +175,6 @@
 					"id": "notepad",
 					"name": "Notepad",
 					"url": "https://chromewebstore.google.com/detail/notepad/dlgjakmnebpfpfihadcipgmgaogldepi"
-				},
-				{
-					"id": "voicetotext",
-					"name": "Voice > Text",
-					"url": "https://chromewebstore.google.com/detail/voice-to-text/elajeappnnlkfmffkincmhkmomnjgjpj"
 				}
 			]
 		}
