@@ -8,6 +8,11 @@
 					"id": "notebooklm",
 					"name": "Google Notebook",
 					"url": "https://notebooklm.google.com/"
+				},
+				{
+					"id": "aistudio",
+					"name": "Google AI Studio",
+					"url": "https://aistudio.google.com/apps"
 				}
 			]
 		},
