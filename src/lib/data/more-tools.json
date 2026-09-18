@@ -6,14 +6,14 @@
 			"tools": [
 				{
 					"id": "notebooklm",
-					"name": "NotebookLM",
+					"name": "Google Notebook",
 					"url": "https://notebooklm.google.com/"
 				}
 			]
 		},
 		{
 			"id": "search",
-			"name": "Search",
+			"name": "Image Search",
 			"tools": [
 				{
 					"id": "pixabay",
@@ -34,7 +34,7 @@
 		},
 		{
 			"id": "image",
-			"name": "Image",
+			"name": "Image Edit",
 			"tools": [
 				{
 					"id": "imagegen",
@@ -55,6 +55,16 @@
 					"id": "colorize",
 					"name": "Colorize",
 					"url": "https://online.visual-paradigm.com/photo-effects-studio/old-photo-colorizer/"
+				},
+				{
+					"id": "compress",
+					"name": "Compress",
+					"url": "https://shortpixel.com/online-image-compression"
+				},
+				{
+					"id": "bulkresize",
+					"name": "Bulk Resize",
+					"url": "https://www.birme.net/?target_width=1280&target_height=720&image_format=jpeg&quality_jpeg=90&rename=jinglebox-advent&rename_start=27"
 				}
 			]
 		},
@@ -131,12 +141,12 @@
 				},
 				{
 					"id": "textcheck",
-					"name": "Text Check",
+					"name": "AI Text Check",
 					"url": "https://phrasly.ai/ai-detector"
 				},
 				{
 					"id": "imagecheck",
-					"name": "Image Check",
+					"name": "AI Image Check",
 					"url": "https://sightengine.com/detect-ai-generated-images"
 				}
 			]
@@ -146,14 +156,29 @@
 			"name": "SEO",
 			"tools": [
 				{
-					"id": "seokit",
-					"name": "SEO Kit",
-					"url": "https://sites.google.com/view/nuj-seo-0626/home"
-				},
-				{
 					"id": "eeatcheck",
 					"name": "EEAT Check",
 					"url": "https://inetventures.com/eeat-checker"
+				},
+				{
+					"id": "metacheck",
+					"name": "Meta Check",
+					"url": "https://rankmath.com/tools/meta-tag-analyzer/"
+				},
+				{
+					"id": "mobiletest",
+					"name": "Mobile Test",
+					"url": "https://www.bing.com/webmaster/tools/mobile-friendliness"
+				},
+				{
+					"id": "speedtest",
+					"name": "Speed Test",
+					"url": "https://tools.pingdom.com/"
+				},
+				{
+					"id": "keywordcheck",
+					"name": "Keyword Check",
+					"url": "https://www.wmtips.com/tools/keyword-density-analyzer/#google_vignette"
 				}
 			]
 		},
@@ -162,19 +187,29 @@
 			"name": "Chrome Extensions",
 			"tools": [
 				{
-					"id": "aisidebar1",
-					"name": "AI Sidebar 1",
-					"url": "https://chromewebstore.google.com/detail/anything-copilot-sidebar/lilckelmopbcffmglfmfhelaajhjpcff"
-				},
-				{
 					"id": "aisidebar2",
-					"name": "AI Sidebar 2",
+					"name": "AI Sidebar",
 					"url": "https://chromewebstore.google.com/detail/omniside-chat-with-ai-mod/feejmmfeiamlfkhodljnnplcgjjaknnl"
 				},
 				{
 					"id": "notepad",
 					"name": "Notepad",
 					"url": "https://chromewebstore.google.com/detail/notepad/dlgjakmnebpfpfihadcipgmgaogldepi"
+				},
+				{
+					"id": "mobileview",
+					"name": "Mobile View",
+					"url": "https://chromewebstore.google.com/detail/mobile-simulator-responsi/ckejmhbmlajgoklhgbapkiccekfoccmk"
+				},
+				{
+					"id": "accessibilitycheck",
+					"name": "Accessibility Check",
+					"url": "https://chromewebstore.google.com/detail/silktide-accessibility-ch/mpobacholfblmnpnfbiomjkecoojakah"
+				},
+				{
+					"id": "imagesizecheck",
+					"name": "Image Size Check",
+					"url": "https://chromewebstore.google.com/detail/image-size-checker/dhaldejbjjbmbbglikgmepdnopamegeg"
 				}
 			]
 		}
