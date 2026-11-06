@@ -43,7 +43,7 @@
 			"tools": [
 				{
 					"id": "imagegen",
-					"name": "Image Gen",
+					"name": "Image Gen (Flow)",
 					"url": "https://labs.google/fx/tools/flow"
 				},
 				{
