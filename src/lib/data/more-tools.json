@@ -218,14 +218,19 @@
 			"name": "Chrome Extensions",
 			"tools": [
 				{
-					"id": "aisidebar2",
-					"name": "AI Sidebar",
-					"url": "https://chromewebstore.google.com/detail/omniside-chat-with-ai-mod/feejmmfeiamlfkhodljnnplcgjjaknnl"
+					"id": "sidepanel",
+					"name": "Side Panel",
+					"url": "https://chromewebstore.google.com/detail/side-panel-web-multitaske/jlfdjcmofednlaankkfgcokeacnjjjpg"
 				},
 				{
 					"id": "notepad",
 					"name": "Notepad",
 					"url": "https://chromewebstore.google.com/detail/notepad/dlgjakmnebpfpfihadcipgmgaogldepi"
+				},
+				{
+					"id": "imageresizer",
+					"name": "Image Resizer",
+					"url": "https://chromewebstore.google.com/detail/image-resizer-crop-compre/jjopnkndcggobbecdpahfnjjlicbpjea"
 				},
 				{
 					"id": "mobileview",
