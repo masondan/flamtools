@@ -157,6 +157,32 @@
 			]
 		},
 		{
+			"id": "verify",
+			"name": "Verify",
+			"tools": [
+				{
+					"id": "synthid",
+					"name": "SynthID",
+					"url": "https://synthid.com/image-detection"
+				},
+				{
+					"id": "metaidentify",
+					"name": "Meta Identify",
+					"url": "https://www.meta.ai/identification"
+				},
+				{
+					"id": "videoframes",
+					"name": "Video to Frames",
+					"url": "https://videotoframes.com/"
+				},
+				{
+					"id": "slowvideo",
+					"name": "Slow Video",
+					"url": "https://online-video-cutter.com/change-video-speed"
+				}
+			]
+		},
+		{
 			"id": "seo",
 			"name": "SEO",
 			"tools": [
