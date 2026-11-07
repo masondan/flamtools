@@ -5,8 +5,8 @@
 			"name": "Projects",
 			"tools": [
 				{
-					"id": "notebooklm",
-					"name": "Google Notebook",
+					"id": "gemininotebook",
+					"name": "Gemini Notebook",
 					"url": "https://notebooklm.google.com/"
 				},
 				{
@@ -143,16 +143,6 @@
 					"id": "fileconvert",
 					"name": "File Convert",
 					"url": "https://www.freeconvert.com/"
-				},
-				{
-					"id": "textcheck",
-					"name": "AI Text Check",
-					"url": "https://phrasly.ai/ai-detector"
-				},
-				{
-					"id": "imagecheck",
-					"name": "AI Image Check",
-					"url": "https://sightengine.com/detect-ai-generated-images"
 				}
 			]
 		},
@@ -169,6 +159,16 @@
 					"id": "metaidentify",
 					"name": "Meta Identify",
 					"url": "https://www.meta.ai/identification"
+				},
+				{
+					"id": "textcheck",
+					"name": "AI Text Check",
+					"url": "https://phrasly.ai/ai-detector"
+				},
+				{
+					"id": "imagecheck",
+					"name": "AI Image Check",
+					"url": "https://sightengine.com/detect-ai-generated-images"
 				},
 				{
 					"id": "videoframes",
