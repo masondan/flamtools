@@ -215,6 +215,11 @@
 					"id": "crawlercheck",
 					"name": "Crawler Check",
 					"url": "https://crawlercheck.com/"
+				},
+				{
+					"id": "seotoolkit",
+					"name": "SEO Toolkit (Full)",
+					"url": "https://sites.google.com/view/dm-seo-toolkit/home"
 				}
 			]
 		},
