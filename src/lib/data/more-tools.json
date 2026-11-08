@@ -210,6 +210,11 @@
 					"id": "keywordcheck",
 					"name": "Keyword Check",
 					"url": "https://www.wmtips.com/tools/keyword-density-analyzer/#google_vignette"
+				},
+				{
+					"id": "crawlercheck",
+					"name": "Crawler Check",
+					"url": "https://crawlercheck.com/"
 				}
 			]
 		},
