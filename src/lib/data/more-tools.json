@@ -187,16 +187,6 @@
 			"name": "SEO",
 			"tools": [
 				{
-					"id": "eeatcheck",
-					"name": "EEAT Check",
-					"url": "https://inetventures.com/eeat-checker"
-				},
-				{
-					"id": "metacheck",
-					"name": "Meta Check",
-					"url": "https://rankmath.com/tools/meta-tag-analyzer/"
-				},
-				{
 					"id": "mobiletest",
 					"name": "Mobile Test",
 					"url": "https://www.bing.com/webmaster/tools/mobile-friendliness"
@@ -217,9 +207,24 @@
 					"url": "https://crawlercheck.com/"
 				},
 				{
+					"id": "accessibilitycheck",
+					"name": "Accessibility (Ext)",
+					"url": "https://chromewebstore.google.com/detail/silktide-accessibility-ch/mpobacholfblmnpnfbiomjkecoojakah"
+				},
+				{
 					"id": "seotoolkit",
 					"name": "SEO Toolkit (Full)",
 					"url": "https://sites.google.com/view/dm-seo-toolkit/home"
+				},
+				{
+					"id": "imagesizecheck",
+					"name": "Image Size Check (Ext)",
+					"url": "https://chromewebstore.google.com/detail/image-size-checker/dhaldejbjjbmbbglikgmepdnopamegeg"
+				},
+				{
+					"id": "detailedseo",
+					"name": "Detailed SEO (Ext)",
+					"url": "https://chromewebstore.google.com/detail/detailed-seo-extension/pfjdepjjfjjahkjfpkcgfmfhmnakjfba"
 				}
 			]
 		},
@@ -246,16 +251,6 @@
 					"id": "mobileview",
 					"name": "Mobile View",
 					"url": "https://chromewebstore.google.com/detail/mobile-simulator-responsi/ckejmhbmlajgoklhgbapkiccekfoccmk"
-				},
-				{
-					"id": "accessibilitycheck",
-					"name": "Accessibility Check",
-					"url": "https://chromewebstore.google.com/detail/silktide-accessibility-ch/mpobacholfblmnpnfbiomjkecoojakah"
-				},
-				{
-					"id": "imagesizecheck",
-					"name": "Image Size Check",
-					"url": "https://chromewebstore.google.com/detail/image-size-checker/dhaldejbjjbmbbglikgmepdnopamegeg"
 				}
 			]
 		}
